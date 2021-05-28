@@ -21,8 +21,11 @@ class CardRestaurant extends HTMLElement {
             <p tabindex="0" class="rest-item__city">${city}</p>
         <div class="rest-item__content">
             <p tabindex="0" class="rest-item__rating">⭐️ ${rating}</p>
-            <h3 class="rest-item__title"><a href="${`/#/detail/${id}`}">${name}</a></h3>
+            <h3 class="rest-item__title">${name}</h3>
             <p tabindex="0" class="rest-item__description">${description}</p>
+            <div class="btn-modal">
+              <a href="${`/#/detail/${id}`}" class="modal__button">Details</a>
+            </div>
         </div>
     </div>
     `;

@@ -1,5 +1,5 @@
-/* eslint-disable no-underscore-dangle */
 /* eslint-disable linebreak-style */
+/* eslint-disable no-underscore-dangle */
 import DrawerInitiator from '../utils/drawer-initiator';
 import loaderWait from '../utils/loader-wait';
 import UrlParser from '../routes/url-parser';

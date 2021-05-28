@@ -2,6 +2,8 @@
 import UrlParser from '../../routes/url-parser';
 import RestaurantDbSource from '../../data/restaurantdb';
 import LikeButtonInitiator from '../../utils/like-button-initiator';
+
+// components
 import '../components/restaurant-detail';
 import '../components/pre-loader';
 import '../components/error-message';

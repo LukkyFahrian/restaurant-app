@@ -1,5 +1,7 @@
 /* eslint-disable linebreak-style */
 import FavoriteRestoIdb from '../../data/favoriteresto-idb';
+
+// components
 import '../components/card-restaurant';
 import '../components/hero-element';
 import '../components/pre-loader';

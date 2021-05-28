@@ -1,0 +1,33 @@
+/* Jumbotron */
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 380px;
+    width: 100%;
+    margin-top: 56px;
+    padding: 1em;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-color: green;
+}
+
+.hero__inner {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.hero__title {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.hero__tagline {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: 500;
+}

@@ -1,0 +1,64 @@
+/* Restaurant Item */
+.rest-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px auto;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.rest-item__content {
+    margin-top: -40px;
+    padding: 16px;
+}
+
+.rest-item__thumbnail {
+    width: 100%;
+    object-fit: cover;
+    height: 180px;
+}
+
+.rest-item__city {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    top: -50px;
+    position: relative;
+    padding: 10px;
+    background-color: #87a7b3;
+    z-index: 9;
+}
+
+.rest-item__rating {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(114, 113, 113);
+}
+
+.rest-item__title {
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 16px;
+    transition: 0.3s opacity;
+}
+
+.rest-item__title:hover {
+    opacity: 0.5;
+}
+
+.rest-item__description {
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+        -webkit-line-clamp: 6; /* number of lines to show */
+        -webkit-box-orient: vertical;
+}

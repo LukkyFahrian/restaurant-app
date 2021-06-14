@@ -9,7 +9,7 @@ class AppBar extends HTMLElement {
     <div class="header">
         <div class="header__inner">
             <button id="menu" class="header__menu">☰</button>
-            <h1 tabindex="0" class="header__title">
+            <h1 class="header__title">
                 Xkz Re:stau
             </h1>
         </div>

@@ -8,7 +8,7 @@ class PreLoader extends HTMLElement {
     this.innerHTML = `
     <div id="loading">
         <div id="loader">
-            <img id="loading-image" src="https://media.giphy.com/media/gu9XBXiz60HlO5p9Nz/giphy.gif" alt="Loading..." />
+            <img id="loading-image" src="./loader.gif" alt="Loading..." />
         </div>
     </div>
       `;
